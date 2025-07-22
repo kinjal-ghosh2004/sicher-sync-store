@@ -15,7 +15,7 @@ const Header = () => {
           </div>
 
           {/* Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-8 flex-1 justify-center">
             <a href="#" className="text-foreground hover:text-primary transition-smooth">
               Products
             </a>
@@ -31,7 +31,7 @@ const Header = () => {
           </nav>
 
           {/* Search Bar */}
-          <div className="hidden lg:flex items-center max-w-sm w-full">
+          <div className="hidden lg:flex items-center max-w-sm">
             <div className="relative w-full">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
               <Input
@@ -42,7 +42,7 @@ const Header = () => {
           </div>
 
           {/* Right Actions */}
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-4 ml-4">
             <Button variant="ghost" size="icon" className="hidden lg:flex">
               <Search className="h-5 w-5" />
             </Button>
