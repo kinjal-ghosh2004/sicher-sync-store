@@ -77,21 +77,25 @@ const Footer = () => {
 
         {/* Contact Info */}
         <div className="border-t border-white/20 pt-8 mb-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="flex items-center space-x-3">
+          <div className="grid grid-cols-3 gap-6">
+            <div className="flex items-center space-x-3 justify-self-start">
               <Mail className="h-5 w-5 text-blue-200" />
               <span className="text-blue-100">contact@sicherheit.tech</span>
             </div>
-            <div className="flex items-center space-x-3">
+
+            <div className="flex items-center space-x-3 justify-self-center">
               <Phone className="h-5 w-5 text-blue-200" />
               <span className="text-blue-100">+91-XXXXXXXXXX</span>
             </div>
-            <div className="flex items-center space-x-3">
+
+            <div className="flex items-center space-x-3 justify-self-end">
               <MapPin className="h-5 w-5 text-blue-200" />
               <span className="text-blue-100">Bengaluru, Karnataka, India</span>
             </div>
           </div>
         </div>
+
+
 
         {/* Copyright */}
         <div className="border-t border-white/20 pt-8 text-center text-blue-100">
