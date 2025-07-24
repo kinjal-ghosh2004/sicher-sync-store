@@ -18,9 +18,10 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center text-white">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
             Secure Your
-            <span className="block bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
+            <span className="block bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent text-[60px] leading-[1.2] pb-2">
               Digital Future
             </span>
+
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto leading-relaxed">
